@@ -1,0 +1,48 @@
+{
+  "id": "552c028c030765286c00007d",
+  "name": "IQ Test",
+  "slug": "iq-test",
+  "category": "reference",
+  "publishedAt": "2015-04-13T17:54:01Z",
+  "approvedAt": "2015-04-26T21:25:56Z",
+  "languages": [
+    "csharp",
+    "javascript",
+    "ruby",
+    "python",
+    "typescript"
+  ],
+  "url": "https://www.codewars.com/kata/iq-test",
+  "rank": {
+    "id": -6,
+    "name": "6 kyu",
+    "color": "yellow"
+  },
+  "createdAt": "2015-04-13T17:53:16Z",
+  "createdBy": {
+    "username": "AlexIsHappy",
+    "url": "https://www.codewars.com/users/AlexIsHappy"
+  },
+  "approvedBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "Bob is preparing to pass IQ test. The most frequent task in this test is `to find out which one of the given numbers differs from the others`. Bob observed that one number usually differs from the others in **evenness**. Help Bob — to check his answers, he needs a program that among the given numbers finds one that is different in evenness, and return a position of this number.\n\n`!` Keep in mind that your task is to help Bob solve a `real IQ test`, which means indexes of the elements start from `1 (not 0)`\n\n##Examples :\n\n```csharp\nIQ.Test(\"2 4 7 8 10\") => 3 // Third number is odd, while the rest of the numbers are even\n\nIQ.Test(\"1 2 1 1\") => 2 // Second number is even, while the rest of the numbers are odd\n```\n```javascript\niqTest(\"2 4 7 8 10\") => 3 // Third number is odd, while the rest of the numbers are even\n\niqTest(\"1 2 1 1\") => 2 // Second number is even, while the rest of the numbers are odd\n```\n```typescript\niqTest(\"2 4 7 8 10\") => 3 // Third number is odd, while the rest of the numbers are even\n\niqTest(\"1 2 1 1\") => 2 // Second number is even, while the rest of the numbers are odd\n```\n```ruby\niq_test(\"2 4 7 8 10\") => 3 // Third number is odd, while the rest of the numbers are even\n\niq_test(\"1 2 1 1\") => 2 // Second number is even, while the rest of the numbers are odd\n```\n \n```python\niq_test(\"2 4 7 8 10\") => 3 // Third number is odd, while the rest of the numbers are even\n\niq_test(\"1 2 1 1\") => 2 // Second number is even, while the rest of the numbers are odd\n```\n  \n",
+  "totalAttempts": 50789,
+  "totalCompleted": 9013,
+  "totalStars": 275,
+  "voteScore": 795,
+  "tags": [
+    "Fundamentals",
+    "Logic"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 0
+  },
+  "session": {
+    "setup": "",
+    "exampleFixture": ""
+  }
+}
